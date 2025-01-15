@@ -9,7 +9,7 @@ fn main() {
 
     let all_students = [john, tom, jay, oscar];
 
-    println!("{}", tom);
+    println!("{}", &all_students[1]);
 
     let mut cs330 = Roster::new(3, "CS 330");
 
